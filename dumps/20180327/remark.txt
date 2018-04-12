@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+select * from ReceiptMaster2 where debitorbillno = 1721 and amount!=0;
+select * from BillMaster; -- where billno='1757113'; -- 1754753
+select * from ReceiptMaster2 where debitorbillno='1721' and amount!=0;
+
+
+
+
+
+
+
+
+
+
+Select * from nmsusers.users where username='abhijeet_h' AND active=1;
+select * from security.userinfo;
+
+UPDATE nmsusers.users SET username = 'abhijeet_h', password = password('ahahah456') where username='abhijeet_h' AND active=1;
+

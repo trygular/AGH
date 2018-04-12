@@ -1,0 +1,3 @@
+Preparing "Install Android SDK Tools (revision: 26.1.1)".
+Downloading https://dl.google.com/android/repository/sdk-tools-windows-4333796.zip
+https://dl.google.com/android/repository/sdk-tools-windows-4333796.zip

@@ -1,0 +1,25 @@
+USE nmsmasters;
+
+SELECT * FROM AreaMaster;
+SELECT * FROM BasketMaster;
+SELECT * FROM CaptionMaster;
+SELECT * FROM CategoryMaster;
+SELECT * FROM ChatFonts;
+SELECT * FROM ColumnSizeMaster;
+SELECT * FROM ContentMaster;
+SELECT * FROM EditionArea;
+SELECT * FROM EditionMaster;
+SELECT * FROM EditorMaster;
+SELECT * FROM EventCategory;
+SELECT * FROM FontList;
+SELECT * FROM LayoutMaster;
+SELECT * FROM NewsPriorityMaster;
+SELECT * FROM PageDefinition;
+SELECT * FROM Pageadlimit;
+SELECT * FROM PlaceMaster;
+SELECT * FROM ProfileMaster;
+SELECT * FROM ReptMaster;
+SELECT * FROM SubareaMaster;
+SELECT * FROM TypeMaster;
+SELECT * FROM WirecatMaster;
+SELECT * FROM serverregistration;

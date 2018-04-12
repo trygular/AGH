@@ -1,0 +1,29 @@
+<html>
+<head>
+	
+</head>
+<body>
+	<div ng-app="AZA" ng-controller="insert">
+		<div><ul><li ng-repeat="name in names">{{ name }}</li></ul></div>
+		<input type="button" ng-click="insert()" value="Add" />
+	</div>
+	
+	
+<script type="text/javascript" src="angular.min.js"></script>
+
+<script>
+	var app = angular.module("AZA", []);
+	app.controller("insert", function($scope, $http){
+		var url = "getNames.php";
+		$http.post(url).then(function(resp){
+			$scope.names = resp.data;
+		});
+		
+		$scope.insert = function(){
+			alert(0);
+		}
+	});
+
+</script>
+</body>
+</html>
